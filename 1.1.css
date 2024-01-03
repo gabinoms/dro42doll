@@ -17,7 +17,7 @@ body {
 	flex-direction:  column;
 
 	min-height: 100%;
-	width: 380px;
+	width: 100vw;
 	/*border: 1px solid black;*/
 
 }
