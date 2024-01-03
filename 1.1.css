@@ -1,0 +1,39 @@
+* {
+	
+	margin: 0;
+}
+html {
+	background-color: gray;
+	/*min-height:  100vh;*/
+	height: 100%;
+}
+
+body {
+	height: 590px;
+}
+
+.container {
+	display: flex;
+	flex-direction:  column;
+
+	min-height: 100%;
+	width: 384px;
+	border: 1px solid black;
+
+}
+.head {
+	height: 70px;
+	border: 2px dotted pink ;
+	margin: 3px;
+
+}
+.main {
+	flex: 1 1 auto;
+	border: 2px dotted pink ;
+	margin: 3px;
+}
+.footer {
+	height: 100px;
+	border: 2px dotted pink;
+	margin: 3px;
+}
