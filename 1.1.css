@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	height: 590px;
+	height: 100vh;
 }
 
 .container {
@@ -17,8 +17,8 @@ body {
 	flex-direction:  column;
 
 	min-height: 100%;
-	width: 384px;
-	border: 1px solid black;
+	width: 380px;
+	/*border: 1px solid black;*/
 
 }
 .head {
@@ -29,7 +29,7 @@ body {
 }
 .main {
 	flex: 1 1 auto;
-	border: 2px dotted pink ;
+	border: 2px dotted lightblue ;
 	margin: 3px;
 }
 .footer {
