@@ -1,0 +1,21 @@
+.btn {
+	width: 160px;
+	height: 60px;
+	cursor: none;
+	border: none;
+	background: green;
+	color: darkgreen;
+	text-transform: uppercase;
+	font-size: 32px;
+	border-radius: 40px;
+	outline: none;
+	box-shadow: 0 5px 1px darkgreen;
+	transition: 0.15s;
+}
+
+.btn:active {
+	transform: translateY(3px);
+	box-shadow: 0 3px darkgreen;
+	color: lightgreen;
+	
+}
