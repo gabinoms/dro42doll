@@ -1,3 +1,11 @@
+.shadow {
+	width: 168px;
+	height: 68px;
+	background-color: black;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+}
 .btn {
 	width: 160px;
 	height: 60px;
@@ -6,16 +14,16 @@
 	background: green;
 	color: darkgreen;
 	text-transform: uppercase;
-	font-size: 32px;
+	font-size: 24px;
 	border-radius: 40px;
 	outline: none;
-	box-shadow: 0 5px 1px darkgreen;
-	transition: 0.15s;
+	box-shadow: 0 7px 1px darkgreen;
+	transition: 0.1s;
 }
 
 .btn:active {
 	transform: translateY(3px);
-	box-shadow: 0 3px darkgreen;
+	box-shadow: 0 4px darkgreen;
 	color: lightgreen;
 	
 }
