@@ -3,10 +3,10 @@ const somebutton = document.getElementById("pressme");
 
 
 
-somebutton.addEventListener("mousedown", () => {
+somebutton.addEventListener("pointerdown", () => {
 	someconst.classList.add("active")
 })
 
-somebutton.addEventListener("mouseup", () => {
+somebutton.addEventListener("pointerup", () => {
 	someconst.classList.remove("active")
 	})
