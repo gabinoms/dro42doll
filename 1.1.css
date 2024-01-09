@@ -19,6 +19,7 @@ body {
 .container {
 	display: flex;
 	flex-direction: column;
+	height: var(--tg-viewport-stable-height, 100vh);
 	min-height: 100%;
 	width: 100vw;
 	/*border: 1px solid black;*/
