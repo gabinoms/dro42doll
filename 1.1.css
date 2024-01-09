@@ -42,7 +42,7 @@ body {
 
 .main_image {
 	display: flex;
-	min-height: 70vh;
+	min-height: 65vh;
 	justify-content: center;
 	/*align-items: center;*/
 	padding-top: 20%;
