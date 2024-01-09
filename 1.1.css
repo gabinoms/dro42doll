@@ -42,9 +42,10 @@ body {
 
 .main_image {
 	display: flex;
+	min-height: 70vh;
 	justify-content: center;
 	/*align-items: center;*/
-	padding-top: 30%;
+	padding-top: 20%;
 }
 
 #someimage {
