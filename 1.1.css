@@ -40,11 +40,24 @@ body {
 	
 }
 
+.main_image {
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	padding-top: 30%;
+}
+
+#someimage {
+	display: none;
+}
+
+#someimage.active {
+	display: block;
+}
 
 .footer {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	height: 20vh;
 	border: 5px solid lightgreen;
 	padding: 2px 1px;
